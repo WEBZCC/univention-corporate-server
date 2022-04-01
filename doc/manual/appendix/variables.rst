@@ -612,6 +612,20 @@ This appendix lists the |UCSUCRV|\ s mentioned in the document.
    :ref:`computers-configuration-via-univention-configuration-registry`.
 
 
+.. envvar:: samba/max/protocol
+
+   Configures the file service protocol that Samba uses on UCS. The allowed
+   values ``NT1``, ``SMB2``, and ``SMB3``. For more information, see
+   :ref:`windows-samba4-fileservices`.
+
+
+.. envvar:: samba4/sysvol/sync/cron
+
+   Configures the synchronization time interval between Samba/AD domain
+   controllers for the SYSVOL share. Default value is five minutes. For more
+   information, see :ref:`windows-sysvolshare`.
+
+
 .. envvar:: saml/idp/authsource
 
    Allows Kerberos authentication at the SAML identity provider. Change to
