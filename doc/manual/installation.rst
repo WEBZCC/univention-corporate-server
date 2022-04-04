@@ -30,7 +30,7 @@ activated Secure Boot and installing UCS there.
    also result in UCS 5.0 not being able to boot.
 
 Following installation on hardware or in a virtualization solution, UCS can also
-be installed on the Amazon EC2 cloud using an AMI image.  Further information
+be installed on the Amazon EC2 cloud using an AMI image. Further information
 can be found in :ref:`Installation in the Amazon EC2 cloud
 <installation-amazon-ec2>`.
 
@@ -109,7 +109,7 @@ installed, among others.
 Selecting the installation language
 ===================================
 
-In the first step, you can select the system language you wish to use.  The
+In the first step, you can select the system language you wish to use. The
 selection has an influence on the use of language-specific characters and
 permits the representation of program output in the selected languages in the
 installed UCS system.
@@ -324,9 +324,9 @@ an additional dialogue and must be confirmed explicitly.
 .. _installation-partman-writelvm:
 
 .. figure:: /images/installer-partman-writelvm.*
-   :alt: Confirmation of cahnges to the hard drive
+   :alt: Confirmation of changes to the hard drive
 
-   Confirmation of cahnges to the hard drive
+   Confirmation of changes to the hard drive
 
 Once the partitioning is complete, the UCS basic system and additional software
 is installed automatically. This can take some time depending on the speed of
@@ -400,7 +400,7 @@ The license can then be imported via the UMC module :guilabel:`Welcome!`
 The name of the UCS system to be configured and the name of the DNS domain are
 determined from the fully qualified domain name (hostname including domain
 name) entered here. A suggestion is generated automatically from the
-organization name entered in the previous step.  It is recommended not to use a
+organization name entered in the previous step. It is recommended not to use a
 publicly available DNS domain, as this can result in problems during the name
 resolution.
 
@@ -520,7 +520,7 @@ The :guilabel:`Update system after installation` option allows the automatic
 installation of available Errata updates. In addition, all patch level updates
 and Errata updates available are installed on a |UCSPRIMARYDN|. On all other
 system roles, all the patch level updates are set up to the installation status
-of the |UCSPRIMARYDN|. (You need to log on to the |UCSPRIMARYDN| to check the
+of the |UCSPRIMARYDN|. (You need to log in to the |UCSPRIMARYDN| to check the
 installation status. This is done using the login data specified in the join
 options).
 
@@ -546,7 +546,7 @@ SYSTEM` button. The UCS system is then prepared for the first full booting
 procedure and restarted.
 
 The system will then boot from the hard drive. Following the boot procedure, the
-``root`` and ``Administrator`` users can log on to the UCS portal page (see
+``root`` and ``Administrator`` users can log in to the UCS portal page (see
 :ref:`central-general`), which can be reached under the IP address set during
 the installation or the host name.
 
@@ -576,7 +576,7 @@ During installation in text mode Univention Installer shows the same information
 and asks for the same settings. After partitioning the hard drive, the system is
 prepared for the first boot and finally restarted.
 
-After restart the configuration may be resumed by using a web browser.  The URL
+After restart the configuration may be resumed by using a web browser. The URL
 ``https://SERVER-IP-ADDRESS`` or ``http://SERVER-IP-ADDRESS`` has to be opened
 within the browser (HTTPS is recommended). After loading the URL a login as user
 ``root`` is required.
