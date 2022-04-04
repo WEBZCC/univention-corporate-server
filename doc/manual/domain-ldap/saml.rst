@@ -38,7 +38,7 @@ that are using *single sign-on*.
 
 It is possible to associate the SAML authentication with the Kerberos
 login. This means that users with a valid Kerberos ticket, for example
-after logging on to Windows or Linux, can log on to the identity
+after logging on to Windows or Linux, can log in to the identity
 provider without having to manual re-authenticate.
 
 To allow Kerberos authentication at the identity provider, the |UCSUCRV|

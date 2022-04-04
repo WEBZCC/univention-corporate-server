@@ -32,7 +32,7 @@ LDAP schema extensions
 ~~~~~~~~~~~~~~~~~~~~~~
 
 To keep the efforts required for small extensions in LDAP as low as possible,
-|UCSUCS| provides its own LDAP scheme for customer extensions.  The LDAP object
+|UCSUCS| provides its own LDAP scheme for customer extensions. The LDAP object
 class ``univentionFreeAttributes`` can be used for extended attributes without
 restrictions. It offers 20 freely usable attributes
 (``univentionFreeAttribute1`` to ``univentionFreeAttribute20``) and can be used
@@ -248,7 +248,7 @@ Passwords can be reset via the UMC module :guilabel:`Users`.  By default the
 module is only accessible to the ``Administrator`` user. During the installation
 a new ``default-user-password-admins`` policy is created automatically, which is
 linked to the members of the ``User Password Admins`` group and can be assigned
-to a corresponding container in the LDAP directory.  Further information on the
+to a corresponding container in the LDAP directory. Further information on the
 configuration of UMC policies can be found in :ref:`delegated-administration`.
 
 The policy makes it possible to search for users and create an overview of all

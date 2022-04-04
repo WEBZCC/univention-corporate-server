@@ -44,7 +44,7 @@ conversion. To minimize manual changes after the conversion, please consider
 :ref:`domain-fault-tolerant`.
 
 If additional LDAP schema packages were installed on the |UCSPRIMARYDN|, they
-must also be installed on the |UCSBACKUPDN| prior to the conversion.  The
+must also be installed on the |UCSBACKUPDN| prior to the conversion. The
 package list of the old |UCSPRIMARYDN| should be saved prior to the promotion in
 order to allow a subsequent comparison of the installed packages. The package
 list can be created with the following command:
@@ -86,7 +86,7 @@ UCS saves a copy of those files every night to
 
 The conversion of a |UCSBACKUPDN| to the new |UCSPRIMARYDN| is performed by
 running the command :command:`/usr/lib/univention-ldap/univention-backup2master`
-on the |UCSBACKUPDN|. The system must be rebooted after the conversion.  The
+on the |UCSBACKUPDN|. The system must be rebooted after the conversion. The
 process is logged to :file:`/var/log/univention/backup2master.log` The following
 steps are performed by :command:`univention-backup2master`:
 

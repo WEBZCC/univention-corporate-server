@@ -31,7 +31,7 @@ settings`.
 .. caution::
 
    If the UCS domain contains more than one system, all other host certificates
-   need to be reissued after changing the root certificate!  The procedure
+   need to be reissued after changing the root certificate! The procedure
    required for this is documented in :uv:kb:`Renewing the SSL certificates <37>`.
 
 The UCS-CA is always found on the |UCSPRIMARYDN|. A copy of the CA is stored on

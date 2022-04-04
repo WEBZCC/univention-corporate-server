@@ -26,7 +26,7 @@ Replication of the directory data within a UCS domain occurs via the
 
    Listener/Notifier mechanism
 
-The active |UCSUDL| instances in the domain connect to a |UCSUDN| service.  If
+The active |UCSUDL| instances in the domain connect to a |UCSUDN| service. If
 an LDAP change is performed on the |UCSPRIMARYDN| (all other LDAP servers in the
 domain are read-only), this is registered by the |UCSUDN| and notified to the
 listener instances.

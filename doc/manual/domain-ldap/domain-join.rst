@@ -148,7 +148,7 @@ Samba is now described as an example for Windows 10 and Windows 2012 / 2016 /
 2019. The process is similar for other Windows versions. In addition to the
 client versions, Windows server systems can also join the domain. Windows
 servers join the domain as member servers; joining a Windows systems as a domain
-controller is not supported.  Further information can be found in
+controller is not supported. Further information can be found in
 :ref:`windows-general`.
 
 Only domain-compatible Windows versions can join the UCS domain, i.e.,
@@ -186,7 +186,7 @@ The joining of domains is only possible with the Pro and Enterprise editions of
 Windows 10.
 
 The control panel can be reached via the search field :guilabel:`Search the web
-and Windows`, which can be found in the start bar.  Under :menuselection:`System
+and Windows`, which can be found in the start bar. Under :menuselection:`System
 and Security --> System` it must be clicked on :menuselection:`Change settings
 --> Change`.
 
@@ -210,7 +210,7 @@ corner of the screen. The *Control Panel* can then be searched for under
 ID` must be clicked on under :menuselection:`System and Security --> System`.
 
 The :guilabel:`Domain` option field must be ticked and the name of the Samba
-domain entered in the input field for the domain join.  After clicking on the
+domain entered in the input field for the domain join. After clicking on the
 :guilabel:`OK` button, the username ``Administrator`` must be entered in the
 input field :guilabel:`Name` and the password from
 ``uid=Administrator,cn=users,<LDAP base DN`` transferred to the
