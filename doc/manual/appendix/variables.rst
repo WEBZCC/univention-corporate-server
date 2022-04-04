@@ -545,6 +545,74 @@ This appendix lists the |UCSUCRV|\ s mentioned in the document.
    value is set to ``yes``. For more information, see :ref:`basicservices-ntp`.
 
 
+.. envvar:: office365/adconnection/wizard
+
+   Defines the Azure AD connection alias that is used by the next run of the
+   Microsoft 365 Configuration Wizard. For more information, see
+   :ref:`idmcloud-o365-multipleconnections`.
+
+
+.. envvar:: office365/attributes/anonymize
+
+   Configures the LDAP attributes of a user account that the Microsoft 365
+   connector synchronizes, but filles with random data. The value is a
+   comma-separated list of LDAP attributes. For more information, see
+   :ref:`idmcloud-o365-users`.
+
+
+.. envvar:: office365/attributes/mapping/.*
+
+   Defines a mapping of UCS LDAP attributes to Azure attributes. The default
+   settings usually suffice most environment needs. For more information, see
+   :ref:`idmcloud-o365-users`.
+
+
+.. envvar:: office365/attributes/never
+
+   Configures the LDAP attributes of a user account that the Microsoft 365
+   connector never synchronizes, even if mentioned in
+   :envvar:`office365/attributes/sync` or
+   :envvar:`office365/attributes/anonymize`. The value is a comma-separated list
+   of LDAP attributes. For more information, see :ref:`idmcloud-o365-users`.
+
+
+.. envvar:: office365/attributes/static/.*
+
+   Configures LDAP attributes for synchronization with predefined values. For
+   more information, see :ref:`idmcloud-o365-users`.
+
+
+.. envvar:: office365/attributes/sync
+
+   Configures the LDAP attributes of a user account that the Microsoft 365
+   connector synchronizes. The value is a comma-separated list of LDAP
+   attributes. For more information, see :ref:`idmcloud-o365-users`.
+
+
+.. envvar:: office365/attributes/usageLocation
+
+   Configures the default country for the user in Microsoft 365. Values are
+   2-character abbreviations for countries. For more information, see
+   :ref:`idmcloud-o365-users`.
+
+
+.. envvar:: Office365/debug/werror
+
+   Configure additional debug error for the Microsoft 365 connector. For more
+   information, see :ref:`idmcloud-o365-debug`.
+
+.. envvar:: office365/defaultalias
+
+   Configures the default connection alias for Microsoft 365 enabled users and
+   groups. For more information, see :ref:`idmcloud-o365-multipleconnections`.
+
+.. envvar:: office365/groups/sync
+
+   Enables the synchronization of groups of the Microsoft 365 users. To use
+   teams, set the value to ``yes``. For more information, see
+   :ref:`idmcloud-o365-teams`.
+
+
 .. envvar:: password/hashing/bcrypt
 
    Activates :program:`bcrypt` as password hashing method when set to ``true``.
