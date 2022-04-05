@@ -166,11 +166,12 @@ class Resource(RequestHandler):
 				cookie_args['samesite'] = ucr['umc/http/cookie/samesite']
 			self.set_cookie(name, value, **cookie_args)
 
-	def get_cookie(self, name):
+	def get_cookie(self, name, default=None):
 		cookie = self.request.cookies.get
 		morsel = cookie(self.suffixed_cookie_name(name)) or cookie(name)
 		if morsel:
 			return morsel.value
+		return default
 
 	def suffixed_cookie_name(self, name):
 		host, _, port = self.request.headers.get('Host', '').partition(':')
