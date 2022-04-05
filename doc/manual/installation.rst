@@ -202,7 +202,7 @@ In manual configuration it is possible to specify either a static IPv4 or an
 IPv6 address for the system. IPv4 addresses have a 32-bit length and are
 generally written in four blocks in decimal form (e.g., ``192.0.2.10``), whereas
 IPv6 addresses are four times as long and typically written in hexadecimal form
-(e.g., ``2001:0DB8:FE29:DE27:0000:0000:0000:0000``).  In addition to entering a
+(e.g., ``2001:0DB8:FE29:DE27:0000:0000:0000:0000``). In addition to entering a
 static IP address, values for network masks, gateways and DNS servers are also
 requested.
 
