@@ -6,7 +6,7 @@ Univention App Center
 
 The Univention App Center allows simple integration of software components in a
 UCS domain. The applications are provided both by third parties and by
-Univention itself (e.g., UCS@school). The maintenance and support for the
+Univention itself (e.g., UCS\ @school). The maintenance and support for the
 applications are provided by the respective manufacturer.
 
 .. _appcenter-overview:
@@ -67,7 +67,7 @@ Some components integrate packages that need to be installed on the
 |UCSPRIMARYDN| (usually LDAP schema extensions or new modules for the UCS
 management system). These packages are automatically installed on the
 |UCSPRIMARYDN|. If this is not possible, the installation is aborted. In
-addition, the packages are set up on all accessible |UCSBACKUPDN| systems.  If
+addition, the packages are set up on all accessible |UCSBACKUPDN| systems. If
 several UCS systems are available in the domain, it can be selected on which
 system the application is to be installed.
 

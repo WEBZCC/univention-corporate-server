@@ -47,7 +47,7 @@ Packages
       to ``Hold`` it will be excluded from the update.
 
    Package state
-      The *package state* describes the status of a set-up package. The normal status
+      The *package state* describes the status of a setup package. The normal status
       here is ``Installed`` for installed packages and ``ConfigFiles`` for removed
       packages. All other statuses appear when the package's installation was
       canceled in different phases.
