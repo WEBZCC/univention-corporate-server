@@ -352,7 +352,7 @@ conditional assignments.
    templates have been locally modified.
 
 The UCR templates are stored in the :file:`/etc/univention/templates/files/`
-directory.  The path to the templates is the absolute path to the configuration
+directory. The path to the templates is the absolute path to the configuration
 file with the prefixed path to the template directory. For example, the template
 for the :file:`/etc/issue` configuration file can be found under
 :file:`/etc/univention/templates/files/etc/issue`.

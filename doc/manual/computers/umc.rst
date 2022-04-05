@@ -134,7 +134,7 @@ Computer management module - General tab
 
    * - Reverse zone for DNS entry
      - The DNS reverse zone in which the computer is entered. The zone is used
-       to resolve the computer's IP address in a computer name.  Further
+       to resolve the computer's IP address in a computer name. Further
        information on the IP configuration can be found in
        :ref:`networks-introduction`.
 
@@ -165,7 +165,7 @@ Computer management module - Account tab
 
    * - Password
      - The password for the computer account is usually automatically created
-       and rotated.  For special cases such as the integration of external
+       and rotated. For special cases such as the integration of external
        systems it can also be explicitly configured in this field.
 
        The same password must then also be entered locally on the computer in

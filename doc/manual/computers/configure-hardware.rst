@@ -67,7 +67,7 @@ a standardized interface for kernel sources, which are then built automatically
 for every installed kernel (insofar as the source package is compatible with the
 respective kernel). For this to happen, the kernel header package
 :program:`linux-headers-amd64` must be installed in addition to the
-:program:`dkms` package.  Please note that not all the external kernel modules
+:program:`dkms` package. Please note that not all the external kernel modules
 are compatible with all kernels.
 
 .. _grub:

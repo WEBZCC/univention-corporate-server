@@ -400,7 +400,7 @@ SSH login to systems
 
 When installing a UCS system, an SSH server is also installed per preselection.
 SSH is used for realizing encrypted connections to other hosts, wherein the
-identity of a host can be assured via a check sum.  Essential aspects of the SSH
+identity of a host can be assured via a check sum. Essential aspects of the SSH
 server's configuration can be adjusted in |UCSUCR|.
 
 By default the login of the privileged ``root`` user is permitted by SSH (e.g.
