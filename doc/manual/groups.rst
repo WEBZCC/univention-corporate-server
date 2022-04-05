@@ -29,7 +29,7 @@ The assignment of users to groups is performed in two ways:
 
 .. rubric:: Recommendation for group name definition
 
-One very important and required attribute for groups is the group name.  To
+One very important and required attribute for groups is the group name. To
 avoid conflicts with the different tools handling groups in UCS, adhere to the
 following recommendations for the definition of group names:
 
@@ -83,7 +83,7 @@ Group management module - General tab
        name, see :ref:`groups-recommendation-group-name`.
 
        By default it is not possible to create a group with the same name as an
-       existing user.  If the |UCSUCRV|
+       existing user. If the |UCSUCRV|
        :envvar:`directory/manager/user_group/uniqueness` is set to ``false``,
        this check is removed.
 
@@ -363,6 +363,6 @@ installed on all LDAP servers. Afterwards
 :command:`/usr/share/univention-ldap-overlay-memberof/univention-update-memberof`
 must be invoked on all servers.
 
-By default the user attribute ``memberOf`` is shown.  The |UCSUCRV|
+By default the user attribute ``memberOf`` is shown. The |UCSUCRV|
 :envvar:`ldap/overlay/memberof/memberof` can be used to configure a different
 attribute.
