@@ -266,7 +266,7 @@ If Samba/AD is used, the group memberships are synchronized between the
 Samba/AD directory service and the OpenLDAP directory service by the
 Univention S4 connector, i.e., each group on the UCS side is associated
 with a group in Active Directory. General information on the Univention
-S4 connector can be found in :ref:`windows-s4connector`.
+S4 connector can be found in :ref:`windows-s4-connector`.
 
 Some exceptions are formed by the *pseudo groups*
 (sometimes also called system groups). These are only managed internally
