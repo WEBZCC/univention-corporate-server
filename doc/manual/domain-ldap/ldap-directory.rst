@@ -244,7 +244,7 @@ can be entered in the |UCSUCRV|
 :envvar:`ldap/acl/user/passwordreset/accesslist/groups/dn`. The LDAP server must
 be restarted after making changes.
 
-Passwords can be reset via the UMC module :guilabel:`Users`.  By default the
+Passwords can be reset via the UMC module :guilabel:`Users`. By default the
 module is only accessible to the ``Administrator`` user. During the installation
 a new ``default-user-password-admins`` policy is created automatically, which is
 linked to the members of the ``User Password Admins`` group and can be assigned

@@ -149,7 +149,7 @@ Samba is now described as an example for Windows 10 and Windows 2012 / 2016 /
 client versions, Windows server systems can also join the domain. Windows
 servers join the domain as member servers; joining a Windows systems as a domain
 controller is not supported. Further information can be found in
-:ref:`windows-general`.
+:ref:`windows-services-for-windows`.
 
 Only domain-compatible Windows versions can join the UCS domain, i.e.,
 it is not possible for the Home versions of Windows to join a domain.
@@ -165,7 +165,7 @@ Windows system.
 Joining the domain takes some time and the process must not be canceled
 prematurely. After successful joining a small window appears with the message
 *Welcome to the domain <your domain name>*. This should be confirmed with
-:guilabel:`OK`.  The computer must then be restarted for the changes to take
+:guilabel:`OK`. The computer must then be restarted for the changes to take
 effect.
 
 Domain names must be limited to 13 characters as they are otherwise truncated at
@@ -196,7 +196,7 @@ should be used, e.g. ``mydomain.intranet``. After clicking on the :guilabel:`OK`
 button, the username of a domain administrator must be entered in the input
 field :guilabel:`Username`, by default this is ``Administrator``. The password
 of the domain administrator has to be entered in the input field
-:guilabel:`Password`.  Finally, the process for joining the domain can then be
+:guilabel:`Password`. Finally, the process for joining the domain can then be
 started by clicking on :guilabel:`OK`.
 
 .. _domain-ldap-win-2012:
