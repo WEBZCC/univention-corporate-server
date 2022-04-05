@@ -38,7 +38,7 @@ in uppercase/lowercase.
 
 For example, the UNIX home directory can be stored under
 :file:`/home/<title>.<lastname>` or the primary e-mail address can be predefined
-with ``<firstname>.<lastname>@company.com``.  Substitutions are generally
+with ``<firstname>.<lastname>@company.com``. Substitutions are generally
 possibly for any value, but there is no syntax or semantics check. So, if no
 first name is specified when creating a user, the above e-mail address would
 begin with a dot and would thus be invalid according to the e-mail standard.

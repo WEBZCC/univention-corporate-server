@@ -124,12 +124,12 @@ To do this, the |UCSUCRV|\ s :envvar:`ldap/ppolicy` and
    $ systemctl restart slapd
 
 
-The default policy is designed so that five repeated failed LDAP server logon
+The default policy is designed so that five repeated failed LDAP server login
 attempts within five minutes cause the lockout. A locked account can only be
 unlocked by a domain administrator through the UMC module :guilabel:`Users` via
 the checkbox *Unlock account* on the *Account* tab.
 
-The number of repeated failed LDAP server logon attempts can be adjusted
+The number of repeated failed LDAP server login attempts can be adjusted
 in the configuration object with the *objectClass* ``pwdPolicy``:
 
 .. code-block:: console
@@ -142,7 +142,7 @@ in the configuration object with the *objectClass* ``pwdPolicy``:
 
 ``pwdMaxFailureCountInterval``
    attribute determines the time interval in seconds that is considered. Failed
-   logon attempts outside this interval are ignored in the count.
+   login attempts outside this interval are ignored in the count.
 
 The following command can be used to block the account after 10
 attempts:
