@@ -167,6 +167,44 @@ This appendix lists the |UCSUCRV|\ s mentioned in the document.
    :ref:`computers-ipv6`.
 
 
+.. envvar:: google-apps/attributes/anonymize
+
+   Configures the LDAP attributes of a user account that Google Apps for Work
+   Connector synchronizes, but filles with random data. The value is a
+   comma-separated list of LDAP attributes. For more information, see
+   :ref:`idmcloud-gsuite-config`.
+
+
+.. envvar:: google-apps/attributes/mapping/.*
+
+   Defines a mapping of UCS LDAP attributes of a user account for
+   synchronization to Google Apps attributes. The default settings usually
+   suffice most environment needs. For more information, see
+   :ref:`idmcloud-gsuite-config`.
+
+.. envvar:: google-apps/attributes/never
+
+   Configures the LDAP attributes of a user account that the Google Apps for
+   Work Connector never synchronizes, even if mentioned in
+   :envvar:`google-apps/attributes/mapping/.*` or
+   :envvar:`google-apps/attributes/anonymize`. The value is a comma-separated
+   list of LDAP attributes. For more information, see
+   :ref:`idmcloud-gsuite-config`.
+
+
+.. envvar:: google-apps/debug/werror
+
+   Configure additional debug error for the Google Apps for Work. For more
+   information, see :ref:`idmcloud-gsuite-debug`.
+
+
+.. envvar:: google-apps/groups/sync
+
+   Enables the synchronization of groups of the Google Apps for Work user groups
+   with the value ``yes``. For more information, see
+   :ref:`idmcloud-gsuite-config`.
+
+
 .. envvar:: groups/default/domainadmins
 
    Configures the default group name for the domain administrator group. The
@@ -562,9 +600,9 @@ This appendix lists the |UCSUCRV|\ s mentioned in the document.
 
 .. envvar:: office365/attributes/mapping/.*
 
-   Defines a mapping of UCS LDAP attributes to Azure attributes. The default
-   settings usually suffice most environment needs. For more information, see
-   :ref:`idmcloud-o365-users`.
+   Defines a mapping of UCS LDAP attributes of a user account for
+   synchronization to Azure attributes. The default settings usually suffice
+   most environment needs. For more information, see :ref:`idmcloud-o365-users`.
 
 
 .. envvar:: office365/attributes/never

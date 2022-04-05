@@ -26,7 +26,7 @@ Setup
 To setup the Microsoft 365 Connector a Microsoft 365 Administrator
 account, a corresponding Account in the Azure Active Directory, as well
 as a `Domain verified by
-Microsoft <https://azure.microsoft.com/en-us/documentation/articles/active-directory-add-domain/>`_
+Microsoft <https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/add-custom-domain>`_
 are required. The first two are provided for test purposes by Microsoft
 for free. However to configure the SSO, a separate Internet domain where
 TXT records can be created is required.
