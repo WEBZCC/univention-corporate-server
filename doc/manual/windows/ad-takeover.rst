@@ -36,7 +36,7 @@ The following requirements must be met for the takeover:
 
 The *Active Directory Takeover* application must be installed from the
 Univention App Center for the migration. It must be installed on the system
-where the Univention S4 Connector is running (see :ref:`windows-s4connector`,
+where the Univention S4 Connector is running (see :ref:`windows-s4-connector`,
 usually the |UCSPRIMARYDN|).
 
 .. _windows-adtakeover-preparations:
