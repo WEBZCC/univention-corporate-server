@@ -10,7 +10,7 @@ Installation
 
 Samba as an AD domain controller can be installed on all UCS Directory Nodes
 from the Univention App Center with the application *Active Directory-compatible
-domain controller*.  Alternatively, the software package
+domain controller*. Alternatively, the software package
 :program:`univention-samba4` can be installed. On the system roles
 |UCSPRIMARYDN| and |UCSBACKUPDN| the :program:`univention-s4-connector` package
 must also be installed and :command:`univention-run-join-scripts` command must
@@ -107,7 +107,7 @@ Samba AD domain controllers can also provide print services. In this case, the
 restrictions described in :ref:`windows-samba4-fileservices` must be taken into
 consideration.
 
-.. _windows-s4connector:
+.. _windows-s4-connector:
 
 Univention S4 connector
 ^^^^^^^^^^^^^^^^^^^^^^^
@@ -332,7 +332,7 @@ Default Domain Policy
 Default Domain Controllers Policy
    The *Default Domain Controllers Policy* object has no use in a Samba domain
    (in a Microsoft AD domain the policies for Microsoft domain controllers would
-   be performed via this object).  The configuration of the Samba domain
+   be performed via this object). The configuration of the Samba domain
    controllers in UCS is largely performed via |UCSUCR|.
 
 AD domains can be structured in sites. All the sites are listed in the
@@ -368,12 +368,12 @@ The policies are evaluated in the following order:
   policies in each case, in other words the one most closely linked to the
   target object, apply. The following evaluation order applies:
 
-   * Assignment of a policy to an Active Directory site
+  * Assignment of a policy to an Active Directory site
 
-   * Settings of the default domain policy
+  * Settings of the default domain policy
 
-   * Assignment of a policy to an organizational unit (OU) (in turn, each
-     subordinate OU overrules policies from superordinate OUs).
+  * Assignment of a policy to an organizational unit (OU) (in turn, each
+    subordinate OU overrules policies from superordinate OUs).
 
 Example: A company blocks access to the :program:`Windows Task Manager` in general.
 This is done by enabling the :guilabel:`Remove Task Manager`
@@ -422,7 +422,7 @@ centrally across several domain controllers so that Group Policy Management on
 all Windows clients displays the same configuration possibilities, see `How to
 Implement the Central Store for Group Policy Admin Templates, Completely (Hint:
 Remove Those .ADM files!)
-<https://blogs.technet.microsoft.com/askpfeplat/2011/12/12/how-to-implement-the-central-store-for-group-policy-admin-templates-completely-hint-remove-those-adm-files/>`_.
+<https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/how-to-implement-the-central-store-for-group-policy-admin/ba-p/255448>`_.
 
 The following example of an ADM file defines a computer policy in which a
 registry key is configured for the (fictitious) Univention RDP client. ADM files

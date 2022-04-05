@@ -105,7 +105,7 @@ infrastructure is used for the authentication. System times should not,
 however, be turned back, in order to avoid inconsistencies.
 
 The domain join is performed automatically. The subsequent dialogue window
-should be confirmed with :guilabel:`Finish`.  Then the UMC server should be
+should be confirmed with :guilabel:`Finish`. Then the UMC server should be
 restarted by clicking :guilabel:`Restart`.
 
 .. note::
@@ -237,7 +237,7 @@ The UCS AD Connector is configured using a wizard in the UMC module
 :guilabel:`Active Directory Connection`.
 
 The module can be installed from the Univention App Center with the application
-:program:`Active Directory Connection`.  Alternatively, the software package
+:program:`Active Directory Connection`. Alternatively, the software package
 :program:`univention-ad-connector` can be installed. Additional information can
 be found in :ref:`computers-softwaremanagement-installsoftware`.
 
@@ -361,7 +361,7 @@ depend on the Windows versions used. Three versions are shown below as examples.
 
 The encrypted communication between the UCS system and Active Directory can also
 be deactivated by setting the |UCSUCRV| :envvar:`connector/ad/ldap/ssl` to
-``no``.  This setting does not affect the replication of encrypted password
+``no``. This setting does not affect the replication of encrypted password
 data.
 
 .. _windows-adconn-win2012:
@@ -623,7 +623,7 @@ Take the following particularities into account:
 
 It is also possible to modify and append custom mappings. For that to work a
 file has to be created named
-:file:`/etc/univention/connector/ad/localmapping.py`.  Within that file the
+:file:`/etc/univention/connector/ad/localmapping.py`. Within that file the
 following function should be implemented:
 
 .. code-block:: python

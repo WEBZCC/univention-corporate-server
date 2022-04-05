@@ -32,7 +32,7 @@ Incoming trust relationships with other Active Directory domains are
 configurable. In this setup the external Active Directory domain trusts
 authentication decisions of the UCS domain (Windows trusts UCS) so that UCS
 users can log in to systems and Active Directory backed services in the Windows
-domain (see :ref:`windows-trust`).  Outgoing trusts with Active Directory domain
+domain (see :ref:`windows-trust`). Outgoing trusts with Active Directory domain
 (UCS trusts Windows) are not supported currently.
 
 .. toctree::
