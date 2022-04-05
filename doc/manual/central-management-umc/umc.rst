@@ -45,7 +45,7 @@ button.
 The button :guilabel:`Import a license` opens a dialogue in which a new license
 key can be activated (otherwise the core edition license is used as default
 license). A license file can be selected and imported via the button
-:guilabel:`Import from file...`.  Alternatively, the license key can also be
+:guilabel:`Import from file...`. Alternatively, the license key can also be
 copied into the input field below and activated with :guilabel:`Import from text
 field`.
 

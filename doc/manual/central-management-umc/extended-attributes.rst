@@ -24,7 +24,14 @@ Extended attributes can be internationalized. In this case, the name and
 description should be compiled in English as this is the standard language for
 UMC modules.
 
-.. list-table:: 'General' tab
+.. _central-extended-attrs-general-tab:
+
+Extended attributes - General tab
+---------------------------------
+
+.. _central-extended-attrs-general-tab-table:
+
+.. list-table:: *General* tab
    :header-rows: 1
 
    * - Attribute
@@ -61,7 +68,14 @@ UMC modules.
        assigning the respective long description to a language code (e.g.,
        ``de_DE`` or ``fr_FR``) in this input field.
 
-.. list-table:: 'Module' tab
+.. _central-extended-attrs-module-tab:
+
+Extended attributes - Module tab
+--------------------------------
+
+.. _central-extended-attrs-module-tab-table:
+
+.. list-table:: *Module* tab
    :header-rows: 1
 
    * - Attribute
@@ -81,7 +95,14 @@ UMC modules.
        information can be found in `Univention Developer Reference
        <https://docs.software-univention.de/developer-reference-5.0.html>`_.
 
-.. list-table:: 'LDAP mapping' tab
+.. _central-extended-attrs-ldap-mapping-tab:
+
+Extended attributes - LDAP mapping tab
+--------------------------------------
+
+.. _central-extended-attrs-ldap-mapping-tab-table:
+
+.. list-table:: *LDAP mapping* tab
    :header-rows: 1
 
    * - Attribute
@@ -111,7 +132,14 @@ UMC modules.
        object class* will also be removed from the LDAP object if this option is
        activated.
 
-.. list-table:: 'UMC' tab
+.. _central-extended-attrs-umc-tab:
+
+Extended attributes - UMC tab
+-----------------------------
+
+.. _central-extended-attrs-umc-tab-table:
+
+.. list-table:: *UMC* tab
    :header-rows: 1
 
    * - Attribute
@@ -123,7 +151,7 @@ UMC modules.
        The attribute can then only be set via the command line interface
        |UCSUDM| and is not displayed in UMC modules.
 
-   * - Exclude from from of UMC module
+   * - Exclude from UMC module
      - If it should not be possible to search for an extended attribute in the
        search window of a wizard, this option can be activated to remove the
        extended attribute from the list of possible search criteria.
@@ -193,7 +221,14 @@ UMC modules.
        used to specify the order of the groups. They are shown in the ascending
        order of their position numbers.
 
-.. list-table:: 'Data type' tab
+.. _central-extended-attrs-data-type-tab:
+
+Extended attributes - Data type tab
+-----------------------------------
+
+.. _central-extended-attrs-data-type-tab-table:
+
+.. list-table:: *Data type* tab
    :header-rows: 1
 
    * - Attribute

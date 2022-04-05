@@ -27,7 +27,7 @@ changed. Portal tiles have to be adapted manually. The default portal has a SSO
 login tile preconfigured which can be activated using the portal edit mode.
 
 After successful login, a session is valid for all UCS systems of the domain as
-well as for third party Apps if these support web based SSO.  It is possible to
+well as for third party Apps if these support web based SSO. It is possible to
 enforce a login on the local system by clicking on the link :guilabel:`Login
 without Single Sign On`.
 
@@ -43,7 +43,7 @@ the corresponding domain account:
   account which should be used for the initial login at a newly installed
   |UCSPRIMARYDN|\ system.
 
-* In some cases, it might be necessary to log on with the system's local
+* In some cases, it might be necessary to log in with the system's local
   ``root`` account (see :ref:`computers-rootaccount`). This account enables
   access only to the UMC modules for the administration and configuration of the
   local system.

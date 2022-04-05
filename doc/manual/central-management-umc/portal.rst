@@ -38,7 +38,7 @@ LDAP attribute ``memberOf``. Nested group memberships (i.e., groups in groups)
 are evaluated.
 
 Further design adjustments can be made in the file
-:file:`/usr/share/univention-portal/css/custom.css`.  This file will not be
+:file:`/usr/share/univention-portal/css/custom.css`. This file will not be
 overwritten during an update.
 
 .. _portal-schema:
@@ -61,7 +61,7 @@ to selected groups or users. This example assumes that a group
 supposed to be given access to the portal settings.
 
 On a |UCSPRIMARYDN| an ACL file has to be created first, for example
-:file:`/opt/62my-portal-acl.acl`.  This file has to have the following content
+:file:`/opt/62my-portal-acl.acl`. This file has to have the following content
 to allow the necessary ACL changes:
 
 .. code-block::
