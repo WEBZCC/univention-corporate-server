@@ -33,7 +33,6 @@
 import os.path
 import time
 import re
-import json
 import ipaddress
 
 import requests

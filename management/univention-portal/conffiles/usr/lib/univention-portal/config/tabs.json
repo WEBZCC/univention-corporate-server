@@ -1,0 +1,14 @@
+{
+  "portal_tabs": {
+    "cn=domain,cn=portal,cn=portals,cn=univention,dc=mpa,dc=intranet": [
+    {
+        "expr": ".*(example).*",
+        "tab_id": "example-tab"
+    },
+    {
+        "expr": ".*(example2).*",
+      "tab_id": "second-example-tab"
+    }
+    ]
+  }
+}
