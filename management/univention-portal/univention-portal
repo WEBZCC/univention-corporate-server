@@ -186,7 +186,7 @@ def _add_default(name: str, json_content: Dict):
 						"value": "/var/cache/univention-portal/portal.json",
 					},
 					"reloader": {
-						"class": "PortalReloaderUDM",
+						"class": "XPortalReloaderUDMWithTargets",
 						"kwargs": {
 							"cache_file": {
 								"type": "static",

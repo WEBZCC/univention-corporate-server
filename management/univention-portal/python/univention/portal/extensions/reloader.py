@@ -214,7 +214,7 @@ class PortalReloaderUDM(MtimeBasedLazyFileReloader):
 			}
 		return ret
 
-	def _add_entry_to_result(self, entry, ret, in_portal):
+	def _add_entry_to_result(self, entry, ret, in_portal, portal):
 		if entry.dn not in ret:
 			ret[entry.dn] = {
 				"dn": entry.dn,
@@ -389,7 +389,12 @@ class XPortalReloaderUDMWithTargets(PortalReloaderUDM):
 	This should get into the database. But this implementation is much easier (PoC)
 	"""
 	def _add_entry_to_result(self, entry, ret, in_portal):
-		super(XPortalReloaderUDMWithTargets, self)._add_entry_to_result(entry, ret, in_portal)
+
+		udm_lib = importlib.import_module("univention.udm")
+		udm = udm_lib.UDM.machine().version(2)
+		portal = udm.get("portals/portal").get(self._portal_dn)
+
+		super(XPortalReloaderUDMWithTargets, self)._add_entry_to_result(entry, ret, in_portal, portal)
 		try:
 			targets = config.fetch("x-targets")
 		except KeyError:
