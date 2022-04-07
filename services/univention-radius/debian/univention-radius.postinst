@@ -88,6 +88,10 @@ call_joinscript 80univention-radius.inst
 
 test -d /etc/freeradius/ssl && chmod -cf 2755 /etc/freeradius/ssl
 
+if [ -f /etc/freeradius/3.0/sites-enabled/default ]; then
+  rm -f /etc/freeradius/3.0/sites-enabled/default
+fi
+
 deb-systemd-helper enable freeradius.service
 systemctl restart freeradius
 
