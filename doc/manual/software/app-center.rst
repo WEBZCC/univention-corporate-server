@@ -6,7 +6,7 @@ Univention App Center
 
 The Univention App Center allows simple integration of software components in a
 UCS domain. The applications are provided both by third parties and by
-Univention itself (e.g., UCS\ @school). The maintenance and support for the
+Univention itself (e.g., UCS\@school). The maintenance and support for the
 applications are provided by the respective manufacturer.
 
 .. _appcenter-overview:
