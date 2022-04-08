@@ -7,17 +7,19 @@ A *Maintenance* policy (see :ref:`central-policies`) in the UMC modules for
 computer and domain management can be used to specify a point at which the
 following steps should be performed:
 
--  Check for available release updates to be installed (see :ref:`computers-softwaremanagement-releasepolicy`) and, if
-   applicable, installation.
+* Check for available release updates to be installed (see
+  :ref:`computers-softwaremanagement-releasepolicy`) and, if applicable,
+  installation.
 
--  Installation/uninstallation of package lists (see :ref:`computers-softwaremanagement-packagelists`)
+* Installation/uninstallation of package lists (see
+  :ref:`computers-softwaremanagement-packagelists`)
 
--  Installation of available errata updates
+* Installation of available errata updates
 
-Alternatively, the updates can also be performed when the system is
-booting or shut down.
+Alternatively, the updates can also be performed when the system is booting or
+shut down.
 
-.. list-table:: 'General' tab
+.. list-table:: *General* tab
    :header-rows: 1
 
    * - Attribute

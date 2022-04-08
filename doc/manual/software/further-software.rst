@@ -60,11 +60,11 @@ A search mask is displayed on the start page in which the user can
 select the package category or a search filter (name or description).
 The results are displayed in a table with the following columns:
 
--  Package name
+* Package name
 
--  Package description
+* Package description
 
--  Installation status
+* Installation status
 
 Clicking an entry in the result list opens a detailed information page
 with a comprehensive description of the package.
