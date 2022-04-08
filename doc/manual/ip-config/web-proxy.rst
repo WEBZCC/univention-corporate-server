@@ -76,7 +76,7 @@ been accessed by the users.
 Restriction of access to permitted networks
 -------------------------------------------
 
-As standard, the proxy server can only be accessed from local networks.  If, for
+As standard, the proxy server can only be accessed from local networks. If, for
 example, a network interface with the address ``192.0.2.10`` and the network
 mask ``255.255.255.0`` is available on the computer on which Squid is installed,
 only computers from the network ``192.0.2.0/24`` can access the proxy server.

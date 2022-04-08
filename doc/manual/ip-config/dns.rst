@@ -513,7 +513,7 @@ DNS UMC module reverse lookup - Start of authority tab
      - See the documentation on forward lookup zones in
        :ref:`networks-dns-forwardzone`.
 
-   * - Refresh enterval
+   * - Refresh interval
      - See the documentation on forward lookup zones in
        :ref:`networks-dns-forwardzone`.
 

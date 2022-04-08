@@ -48,7 +48,7 @@ IP range and excluded from another IP range. DHCP pools can only be created
 below DHCP subnet objects.
 
 If several IP subnets are used in a physical Ethernet network, this should be
-entered as a *DHCP shared subnet* below a *DHCP shared network*.  *DHCP shared
+entered as a *DHCP shared subnet* below a *DHCP shared network*. *DHCP shared
 subnet* objects can only be created below *DHCP shared network* objects.
 
 Values which are set on a DHCP configuration level always apply for this level
