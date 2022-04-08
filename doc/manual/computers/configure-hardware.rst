@@ -346,8 +346,9 @@ The *Mode* configures the distribution of the network cards within the bonding:
   increases redundancy. It can be used with every network switch.
 
 In addition, there are also a number of other bonding methods. These are
-generally only relevant for special cases and are described under
-:ref:`bonding`.
+generally only relevant for special cases and are described under `Linux
+Ethernet Bonding Driver HOWTO
+<https://www.kernel.org/doc/Documentation/networking/bonding.txt>`_.
 
 The Media Independent Interface (MII) of the network cards is used to detect
 failed network adapters. The *MII link monitoring frequency* setting
@@ -355,7 +356,8 @@ specifies the testing interval in milliseconds.
 
 All other bonding parameters can be configured under *Additional bonding
 options*. This is only necessary in exceptional cases; an overview of the
-possible settings can be found under :ref:`bonding`.
+possible settings can be found under `Linux Ethernet Bonding Driver HOWTO
+<https://www.kernel.org/doc/Documentation/networking/bonding.txt>`_.
 
 Clicking on :guilabel:`Next` allows to optionally assign the bonding interface
 an IP address. If one of the existing network cards which form part of the
