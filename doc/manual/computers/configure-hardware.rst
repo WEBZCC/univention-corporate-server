@@ -150,7 +150,7 @@ Configuration of IPv4 addresses
 
 If the *Dynamic (DHCP)* option was not chosen, the IP address to be bound to the
 network card must be entered. In addition to the *IPv4 address* the *net mask*
-must also be entered.  *DHCP query* is used to request an address from a DHCP
+must also be entered. *DHCP query* is used to request an address from a DHCP
 server. Unless the *Dynamic (DHCP)* option is activated, the values received
 from the DHCP request are configured statically.
 
