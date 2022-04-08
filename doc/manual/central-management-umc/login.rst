@@ -39,7 +39,7 @@ the corresponding domain account:
   local system as well as UMC modules for the administration of data in the LDAP
   directory are displayed. The initial password of this account has been
   specified in the setup wizard during the installation. It corresponds to the
-  initial password of the local ``root`` account.  ``Administrator`` is also the
+  initial password of the local ``root`` account. ``Administrator`` is also the
   account which should be used for the initial login at a newly installed
   |UCSPRIMARYDN|\ system.
 

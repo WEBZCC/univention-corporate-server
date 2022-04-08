@@ -113,7 +113,7 @@ The use of policies (:ref:`central-policies`) and the LDAP navigation
 Searching for objects
 ~~~~~~~~~~~~~~~~~~~~~
 
-The module overview lists all the objects managed by this module.  *Search*
+The module overview lists all the objects managed by this module. *Search*
 performs a search for a selection of important attributes (e.g., for user
 objects by first and last name, primary e-mail address, description, employee
 number and user name). A wildcard search is also possible, e.g.,

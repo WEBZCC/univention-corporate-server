@@ -84,7 +84,7 @@ Extended attributes - Module tab
    * - Modules to be extended
      - The |UCSUDM| module which is to be expanded with the extended attribute.
        An extended attribute can apply for multiple modules.
-   * - Required  options/object classes
+   * - Required options/object classes
      - Some extended attributes can only be used practically if certain object
        classes are activated on the :guilabel:`Options` tab. One or more options
        can optionally be saved in this input field so that this extended
@@ -190,7 +190,7 @@ Extended attributes - UMC tab
 
    * - Translations of tab name
      - Translated tab names can be assigned to the corresponding language code
-       (e.g.  ``de_DE`` or ``fr_FR``) in this input field.
+       (e.g. ``de_DE`` or ``fr_FR``) in this input field.
 
    * - Overwrite existing tab
      - If this option is activated, the tab in question is overwritten before

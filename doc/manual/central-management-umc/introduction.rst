@@ -81,7 +81,7 @@ used to further adjust the design of that page. These are
 :file:`/usr/share/univention-portal/custom.css` (:ref:`central-portal`). The
 files are empty when installing UCS and are not modified when installing any UCS
 update. Be aware though that a given `CSS selector
-<https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors>`__
+<https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors>`_
 may break when installing any UCS update.
 
 .. _central-management-umc-feedback:
